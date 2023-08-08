@@ -17,4 +17,3 @@
 >Clone both the frontend and backend<br/>
 >Run npm i in VSC to install mode modules and run npm start to run the live server(only port 3000 permitted)<br/>
 >Type desired location (city or country) you want to check and press search button.
->>>>>>> 656b61978567f0382fdd5a560591c8d2ed983377
