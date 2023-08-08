@@ -5,7 +5,7 @@ import React from "react";
 import { useState } from 'react';
 import { useForm } from "react-hook-form";
 import axios from "axios";
-
+import apiUrl from './apiConfig';
 
 const App = (props) => {
 
@@ -33,7 +33,7 @@ const App = (props) => {
 
 
     //alert(obj)
-    axios.get("http://localhost:8080/v1/current-weather/" + city)
+    axios.get(apiUrl + city)
       .then(response => {
         console.log(response.data.mainData)
         setData(response.data.mainData);
